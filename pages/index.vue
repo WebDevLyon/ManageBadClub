@@ -33,10 +33,12 @@ export default {}
 .container {
   margin: 0 auto;
   min-height: 100vh;
+  max-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  overflow: hidden;
 }
 
 .title {
